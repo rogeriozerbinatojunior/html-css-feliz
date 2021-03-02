@@ -1,0 +1,20 @@
+.action::before {
+    content: "";
+    margin-right: 8px;
+    width: 10px;
+    background-color: #F25A70;
+    height: 10px;
+}
+
+.action {
+    text-decoration: none;
+    color: #ffffff;
+    align-items: center;
+    display: inline;
+    line-height: 26.24px;
+    margin-right: 30px;
+    font-family:'Fira Code', monospace;
+    font-size: 20px;
+    font-weight: 500;
+    display: inline-flex; 
+}

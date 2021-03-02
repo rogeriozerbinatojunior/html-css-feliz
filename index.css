@@ -18,60 +18,14 @@ header {
     height: 80px;
     border-bottom: 10px solid #000000;
 }
+
 #avatar img {
     width: 60px;
     height: 60px;
     margin: 10px 20px;
 }
  
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 nav {
     margin-right: 20px;
 }
 
-nav a::before {
-    content: "";
-    margin-right: 8px;
-    width: 10px;
-    background-color: #F25A70;
-    height: 10px;
-}
-
-nav a {
-    align-items: center;
-    display: inline;
-    line-height: 26.24px;
-    margin-right: 30px;
-    font-family:'Fira Code', monospace;
-    font-size: 20px;
-    font-weight: 500;
-    display: inline-flex; 
-}
-
-button#cv {
-    font-family:'Fira Code', monospace;
-    font-size: 20px;
-    font-weight: 500;
-    color: #ffffff;
-    border: none;
-    box-shadow: 5px 5px 0px #000000;
-    background-color: #F25A70;
-    width: 170px;
-    height: 60px;
-}
-
-button#cv:hover {
-    transform: scale(1.1);
-}
-
-#banner {
-    margin-top: 20px;
-}
-
-#banner-1 {
-    display: inline-block;
-}
