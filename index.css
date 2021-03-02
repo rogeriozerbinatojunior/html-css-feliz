@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #3A4042;
+    /* background-color: #3A4042; */
 }
 
  /* header */
@@ -75,4 +75,3 @@ button#cv:hover {
 #banner-1 {
     display: inline-block;
 }
-
