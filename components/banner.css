@@ -17,12 +17,10 @@
     width: 640px;
 }
 
-.banner .box {
-}
-
 .banner .navigation {
+    margin-left: 107px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-right: 112px;
 }

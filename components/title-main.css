@@ -1,0 +1,16 @@
+.main-title {
+    color: #F25A70;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 4px 4px #000;
+    text-transform: capitalize;
+}
+
+.main-title.-second {
+    color: #ffffff;
+    text-shadow: none;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 56px;
+}
+
