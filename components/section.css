@@ -4,3 +4,10 @@
     height: 730px;
     border-bottom: 10px solid #7C5E99;
 }
+
+.section.-projects {
+    background-color: #000;
+    width: 100%;
+    height: 520px;
+    border-bottom: 10px solid #F25A70;
+}

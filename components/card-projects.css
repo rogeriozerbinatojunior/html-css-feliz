@@ -1,0 +1,9 @@
+.card-projects {
+    width: 280px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px #fff;
+    margin-right: 50px;
+}
+
