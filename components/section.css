@@ -11,3 +11,11 @@
     height: 520px;
     border-bottom: 10px solid #F25A70;
 }
+
+.section.-bdBlack {
+    border-color: #000;
+}
+
+.section.-bgSecond {
+    background-color: #7C5E99;
+}

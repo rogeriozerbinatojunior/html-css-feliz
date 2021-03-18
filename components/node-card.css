@@ -1,0 +1,52 @@
+.node-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.node-card::before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 140px;
+    height: 0px;
+    width: 40px;
+    border: 2px dashed #000;
+    transform: rotate(90deg) translateX(-62%);
+    transform-origin: center center;
+}
+
+.node-card .title {
+    font-size: 25px;
+    font-weight: 400;
+    color: #f25a70;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 50px;
+}
+
+
+.node-card .logo {
+    display: flex;
+    align-items: center;    
+    height: 140px;
+    border: 5px solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #CEB02A;
+}
+
+.node-card.-clean .logo {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    height: 150px;
+}
+
+.node-card.-clean .logo img {
+    height: 150px;
+}
+
+.node-card .logo img {
+    border: none;
+}
