@@ -26,6 +26,7 @@
         <link rel="stylesheet" href="components/main-description.css">
         <link rel="stylesheet" href="components/button-arrow.css">
         <link rel="stylesheet" href="components/node-card.css">
+        <link rel="stylesheet" href="components/main-carousel.css">
         <title> html e css feliz</title>
 </head>
     <header class="header">
@@ -134,44 +135,52 @@
         <p class="main-description">
             Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
         </p>
-        <button class="button-arrow -left"><span class="content">Avançar</span></button>
-        <figure class="node-card">
-            <figcaption class="title">2012</figcaption>
-            <div class="logo">
-                <img src="assets/logo-locaweb.png" alt="Logo da localweb">
+
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="assets/logo-locaweb.png" alt="Logo da localweb">
+                        </div>
+                    </figure>
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                            <img src="assets/logo-caelum.png" alt="Logo da Caelum">
+                        </div>
+                    </figure>
+                    <figure class="node-card -first">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                            <img src="assets/logo-getninjas.png" alt="Logo da GetNinjas">
+                        </div>
+                    </figure>
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo">
+                            <img src="assets/logo-caelum.png" alt="Logo da Caelum">
+                        </div>
+                    </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img src="assets/logo-impulso.png" alt="Logo da Impulso">
+                        </div>
+                    </figure>
+                    <figure class="node-card -first">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo">
+                            <img src="assets/logo-collabcode-card.png" alt="Logo da CollabCode">
+                        </div>
+                    </figure>
+                </div>
             </div>
-        </figure>
-        <figure class="node-card -clean">
-            <figcaption class="title">2014</figcaption>
-            <div class="logo">
-                <img src="assets/logo-caelum.png" alt="Logo da Caelum">
-            </div>
-        </figure>
-        <figure class="node-card">
-            <figcaption class="title">2016</figcaption>
-            <div class="logo">
-                <img src="assets/logo-getninjas.png" alt="Logo da GetNinjas">
-            </div>
-        </figure>
-        <figure class="node-card -clean">
-            <figcaption class="title">2017</figcaption>
-            <div class="logo">
-                <img src="assets/logo-caelum.png" alt="Logo da Caelum">
-            </div>
-        </figure>
-        <figure class="node-card">
-            <figcaption class="title">2018</figcaption>
-            <div class="logo">
-                <img src="assets/logo-impulso.png" alt="Logo da Impulso">
-            </div>
-        </figure>
-        <figure class="node-card">
-            <figcaption class="title">2019</figcaption>
-            <div class="logo">
-                <img src="assets/logo-collabcode-card.png" alt="Logo da CollabCode">
-            </div>
-        </figure>
-        <button class="button-arrow -right"><span class="content">Voltar</span></button>
+            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+        </section>
     </section>
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
