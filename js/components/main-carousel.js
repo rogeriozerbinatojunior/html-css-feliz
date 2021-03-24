@@ -1,9 +1,3 @@
-/* 
-    Anotações: window (acessa a janela) e para achar o documento 
-    dentro da janela usa o "." . para encontrar algum elemento 
-    usa-se o document e para buscar pelo seletor (div ou class)
-    usa o querySelector('class ou id do elemento')
-*/
 
 const btnRight = document.querySelector('.button-arrow.-right');
 const btnLeft = document.querySelector('.button-arrow.-left');
