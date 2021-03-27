@@ -8,3 +8,7 @@
     padding-left: 7px;
     padding-right: 7px;
 }
+
+.main-input.-textarea {
+    height: 320px;
+}

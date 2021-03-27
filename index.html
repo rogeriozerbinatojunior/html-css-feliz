@@ -30,6 +30,7 @@
         <link rel="stylesheet" href="components/main-footer.css">
         <link rel="stylesheet" href="components/main-label.css">
         <link rel="stylesheet" href="components/main-input.css">
+        <link rel="stylesheet" href="components/main-form.css">
         <title> html e css feliz</title>
 </head>
     <header class="header">
@@ -135,10 +136,6 @@
     </section>
     <section class="section -bgSecond -bdBlack">
         <h2 class="main-title -second">Sobre</h2>
-        <p class="main-description">
-            Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
-        </p>
-
         <section class="main-carousel">
             <button class="button-arrow -left"><span class="content">Avançar</span></button>
             <div class="items">
@@ -183,9 +180,13 @@
             </div>
             <button class="button-arrow -right"><span class="content">Voltar</span></button>
         </section>
+        <p class="main-description">
+            Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+        </p>
+
     </section>
 
-    <form>
+    <form class="main-form">
         <label class="main-label" for="name">Nome</label>
         <input class="main-input" id="name" type="text"> 
 
@@ -193,9 +194,9 @@
         <input class="main-input" id="email" type="email">
 
         <label class="main-label" for="message">Mensagem</label>
-        <textar class="main-input" id="message"></textarea>
+        <textarea class="main-input -textarea" id="message"></textarea>
 
-        <button type="submit">Enviar</button>
+        <button class="button -full" type="submit">Enviar</button>
 
     </form>
 
